@@ -1,4 +1,4 @@
-package com.hackerrank.learn.Introduction;
+package com.hackerrank.learn.introduction.welcomeToJava;
 
 public class WelcomeToJava {
 
