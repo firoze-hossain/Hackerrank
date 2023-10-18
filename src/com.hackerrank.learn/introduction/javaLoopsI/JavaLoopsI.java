@@ -1,7 +1,11 @@
-package com.hackerrank.learn.introduction.javaLoopsI;
+package introduction.javaLoopsI;
 
-public class javaLoopsI {
-    public static void main(String[] args) {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class JavaLoopsI {
+    public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());

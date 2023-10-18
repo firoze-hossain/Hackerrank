@@ -1,4 +1,4 @@
-package com.hackerrank.learn.introduction.javaIfElse;
+package introduction.javaIfElse;
 
 import java.io.BufferedReader;
 import java.io.IOException;
