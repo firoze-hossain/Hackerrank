@@ -12,13 +12,10 @@ public class JavaDateAndTime {
         int month = sc.nextInt();
         int day = sc.nextInt();
         int year = sc.nextInt();
-        String res = Result.findDay(month, day, year);
+        String res = findDay(month, day, year);
         System.out.println(res);
     }
 
-}
-
-class Result {
     public static String findDay(int month, int day, int year) {
         Calendar cal = Calendar.getInstance();
         cal.set(year, month - 1, day);
@@ -26,5 +23,8 @@ class Result {
         String str = f.format(cal.getTime());
         return str.toUpperCase();
     }
-
 }
+
+
+
+
